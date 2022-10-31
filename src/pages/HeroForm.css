@@ -1,0 +1,53 @@
+.form-container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-block: 20px;
+}
+
+.form-field label {
+  font-size: 2rem;
+}
+
+.form-input {
+  font-size: 1.6rem;
+  padding: 8px;
+  font-family: inherit;
+}
+
+.form-btn {
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(65, 192, 65);
+  cursor: pointer;
+  border: solid 1px transparent;
+}
+
+.form-btn:hover {
+  border: solid 1px black;
+}
+
+.created-hero {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(39, 160, 39);
+  font-size: 3rem;
+}

@@ -1,0 +1,50 @@
+.hero-card {
+  width: 230px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #000000;
+  border-radius: 5px;
+}
+
+.hero-card:has div {
+  width: 230px;
+}
+
+.hero-icons {
+  font-size: 2.5rem;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleted-hero {
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+  font-size: 3rem;
+}
+
+.update-input {
+  font-size: 1.6rem;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.update-btn {
+  font-size: 2rem;
+  align-self: center;
+  color: #ffffff;
+  background-color: rgb(39, 160, 39);
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin-block: 10px;
+  cursor: pointer;
+}
+
+.updated-hero {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(22, 61, 238);
+  font-size: 3rem;
+}

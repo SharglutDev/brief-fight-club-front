@@ -1,0 +1,37 @@
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  justify-items: center;
+  place-items: center;
+}
+
+.hero-card-list {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #000000;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+.hero-card-list:hover {
+  transform: scale(1.1);
+}
+
+.hero-header {
+  font-size: 2rem;
+  border-bottom: solid 1px black;
+  text-align: center;
+  padding: 10px;
+}
+
+.hero-content {
+  padding: 10px;
+}
