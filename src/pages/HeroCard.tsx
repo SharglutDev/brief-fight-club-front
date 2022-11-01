@@ -116,6 +116,7 @@ const HeroCard = () => {
                   className="update-input"
                   type="text"
                   ref={heroName}
+                  defaultValue={heroById?.name}
                   required
                 />
               </div>
@@ -125,6 +126,7 @@ const HeroCard = () => {
                   className="update-input"
                   type="number"
                   ref={heroPower}
+                  defaultValue={heroById?.power}
                   required
                 />
               </div>
@@ -134,6 +136,7 @@ const HeroCard = () => {
                   className="update-input"
                   type="number"
                   ref={heroLife}
+                  defaultValue={heroById?.life}
                   required
                 />
               </div>
@@ -143,6 +146,7 @@ const HeroCard = () => {
                   className="update-input"
                   type="number"
                   ref={heroWeapon}
+                  defaultValue={heroById?.id_type_weapon}
                 />
               </div>
               <button className="update-btn" type="submit">
